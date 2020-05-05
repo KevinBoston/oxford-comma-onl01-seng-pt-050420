@@ -5,4 +5,5 @@ def oxford_comma(array)
     last_el = array.pop
     comm_arr = array.join(",")
     comm_arr << ", and " + last_el
+  end
 end
