@@ -6,6 +6,6 @@ def oxford_comma(array)
     comm_arr = array.join(", ")
     comm_arr << ", and " + last_el
   elsif array.length == 1
-    array.split
+    array.join
   end
 end
